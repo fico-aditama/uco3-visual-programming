@@ -1,0 +1,18 @@
+mkdir backend
+cd backend
+go mod init backend
+go mod tidy
+go get -u github.com/gin-gonic/gin
+go get -u golang.org/x/crypto/bcrypt
+go get google.golang.org/api/option
+go get firebase.google.com/go/auth
+go get firebase.google.com/go
+
+go get -u github.com/gorilla/mux
+
+
+go get github.com/mattn/go-sqlite3
+go build
+./backend
+
+curl -sL https://firebase.tools | bash

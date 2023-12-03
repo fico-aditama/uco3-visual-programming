@@ -1,0 +1,12 @@
+echo "# alp-visual-programming" >> README.md
+  git init
+  git add README.md
+  git commit -m "uco3-vispro"
+  git branch -M main
+  git remote add origin https://github.com/fico-aditama/alp-visual-programming.git
+  git push -u origin main
+
+
+    git remote set-url origin git@github.com:fico-aditama/alp-visual-programming.git
+  git push -u origin main
+git push --force origin main
